@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+   
+}
+body{
+  
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+.container{
+    min-width: 50px;
+    max-width: 900px;
+    margin: 15px 10px;
+    text-align: center;
+    border: 10px solid #777;
+    border-radius: 5px;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqpiuKXUiVxgO0jtBORLjSdW_3xOZNulctCQ&usqp=CAU');
+  background-repeat: no-repeat;
+    
+  background-size: cover;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+h2{
+    color: black;
+}
+h3{
+    margin: 10px 0;
+}
+#date{
+    color: red;
+}
+form input,
+form button{
+    width: 200px;
+    height: 35px;
+    border: 1px solid #777;
+    padding: 0 5px;
+    outline: none;
+    cursor: pointer;
+}
+form button{
+    width: 100px;
+}
+#name-country{
+    color: #777;
+    margin-top: 30px;
+}
+.content{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.content .box{
+    min-width: 270px;
+    margin: 10px;
+    border: 10px solid #777;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.content .box:hover{
+    background: #eee4;
+}
+.content .box p{
+    text-transform: uppercase;
+    opacity: 17;
+}
+.confirmed h3,
+.confirmed i{
+    color: blue;
+}
+.recovered h3,
+.recovered i{
+    color: green;
+}
+::-webkit-scrollbar{
+    display: none;
+}
